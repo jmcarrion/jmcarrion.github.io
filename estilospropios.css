@@ -1,0 +1,67 @@
+/* ESTILOS RELACIONADOS CON EL HEADER*/
+#header {
+	background-color: #343a40;
+}
+#header img {
+ 	width: 80px;
+ }
+#header span {
+	font-size: 18px;
+	vertical-align: middle; /* Alineación vertical al medio */
+}
+.texto-Platzi {
+	color: #97c93e !important; /* !important hace que prevalezca el valor de la propiedad que se indica aquí*/
+}
+/* /ESTILOS HEADER*/
+
+/* ESTILOS RELACIONADOS CON EL FOOTER*/
+#footer {
+	background-color: #1E516F;
+}
+#footer a {
+	color:white;
+}
+/* /ESTILOS FOOTER*/
+
+/* ESTILOS RELACIONADOS CON EL CAROUSEL*/
+#carousel img {
+	height: 70vh; /*La unidad vh visualiza un porcentaje en la vertical del viewport.
+					Su efecto será una deformación de la imagen*/
+	object-fit: cover; /*Evita la deformación de la imagen en el caso anterior*/
+	filter: grayscale(50%);
+}
+#carousel {
+	position: relative;
+}
+#carousel .overlay {
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	height: 100%;
+}
+#carousel .overlay .container, #carousel .overlay .row {
+	height: 100%;
+}
+.btn-Platzi {
+	background-color: #97c93e !important; 
+	color: white;
+}
+.btn-Platzi:hover {
+	background-color: #7DA635 !important; 
+}
+/* /ESTILOS RELACIONADOS CON EL CAROUSEL*/
+
+/* ESTILOS RELACIONADOS CON EL CONTENEDOR COMPLETO*/
+
+/* /ESTILOS RELACIONADOS CON EL CONTENEDOR COMPLETO*/
+#lugarfecha {
+	background-color: #343a40;
+	color: white;
+}
+#lugarfecha img {
+	width: 100%;
+}
